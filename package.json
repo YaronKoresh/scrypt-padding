@@ -1,0 +1,32 @@
+{
+  "name": "scrypt-padding",
+  "type": "module",
+  "main": "./index.mjs",
+  "version": "1.0.0",
+  "description": "Pad/Unpad messages using Scrypt hashing algorithm.",
+  "author": "Yaron Koresh <aharonkoresh1@gmail.com>",
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/YaronKoresh/scrypt-padding/raw/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YaronKoresh/scrypt-padding.git"
+  },
+ "bugs": {
+    "url": "https://github.com/YaronKoresh/scrypt-padding/issues"
+  },
+ "keywords": [
+    "scrypt",
+    "pad",
+    "unpad",
+    "hash",
+    "data"
+  ],
+  "dependencies": {
+    "buffer": "^6.0.3"
+  }
+}
